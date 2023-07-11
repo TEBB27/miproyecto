@@ -1,0 +1,19 @@
+{
+  "name": "miproyecto",
+  "version": "1.0.0",
+  "description": "miproyecto descripcion",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TEBB27/miproyecto.git"
+  },
+  "author": "TEBB27",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TEBB27/miproyecto/issues"
+  },
+  "homepage": "https://github.com/TEBB27/miproyecto#readme"
+}
