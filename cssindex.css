@@ -6,7 +6,6 @@
 .jumbotron{
     background-color:var(--coloruno) ;
     height: 20vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +27,7 @@ footer{
     margin-bottom: 0px;
     margin-top: 10px;
     color: var(--colorblanco);
+    width: 100%;
 }
 .planes{
     flex-grow: 1;
@@ -41,5 +41,7 @@ footer{
 .btn-adquirir{
     width: 100%;
 }
-body{
-    width: 100vw;}
+.sedes{
+    grid-template-rows: repeat(4, 20px);
+    grid-template-columns: calc(100vw/3);
+}
