@@ -1,7 +1,45 @@
+:root{
+    --coloruno:rgb(156, 0, 0);
+    --colordos:rgb(41, 109, 148);
+    --colorblanco: #fff;
+}
 .jumbotron{
-    background-color: rgb(157, 185, 201);
+    background-color:var(--coloruno) ;
     height: 20vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    color:var(--colorblanco); 
+    font-family: 'Lobster', cursive; 
+    border-bottom: #000 solid 2px;
 }
+.planes button{
+    background-color: var(--coloruno);
+    color: var(--colorblanco);
+
+}
+.planes button:hover{
+    background-color: var(--colordos);
+}
+footer{
+    padding: 10px 0;
+    background-color: var(--coloruno);
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: var(--colorblanco);
+}
+.planes{
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 5px;
+    justify-content: space-between;
+}
+.planes p{
+    text-align: justify;
+}
+.btn-adquirir{
+    width: 100%;
+}
+body{
+    width: 100vw;}
